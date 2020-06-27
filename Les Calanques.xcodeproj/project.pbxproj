@@ -9,23 +9,29 @@
 /* Begin PBXBuildFile section */
 		B456940524A7A27000F72C26 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B456940424A7A27000F72C26 /* AppDelegate.swift */; };
 		B456940724A7A27000F72C26 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B456940624A7A27000F72C26 /* SceneDelegate.swift */; };
-		B456940924A7A27000F72C26 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B456940824A7A27000F72C26 /* FirstViewController.swift */; };
-		B456940B24A7A27000F72C26 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B456940A24A7A27000F72C26 /* SecondViewController.swift */; };
 		B456940E24A7A27000F72C26 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B456940C24A7A27000F72C26 /* Main.storyboard */; };
 		B456941024A7A27600F72C26 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B456940F24A7A27600F72C26 /* Assets.xcassets */; };
 		B456941324A7A27600F72C26 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B456941124A7A27600F72C26 /* LaunchScreen.storyboard */; };
+		B456942024A7A79300F72C26 /* Calanques.swift in Sources */ = {isa = PBXBuildFile; fileRef = B456941F24A7A79300F72C26 /* Calanques.swift */; };
+		B456942224A7AA2500F72C26 /* CallanqueCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = B456942124A7AA2500F72C26 /* CallanqueCollection.swift */; };
+		B456942424A7CB7000F72C26 /* ControllerAvecTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B456942324A7CB7000F72C26 /* ControllerAvecTableView.swift */; };
+		B456942624A7CB9C00F72C26 /* ControllerAvecCarte.swift in Sources */ = {isa = PBXBuildFile; fileRef = B456942524A7CB9C00F72C26 /* ControllerAvecCarte.swift */; };
+		B456942824A7CBDD00F72C26 /* TableViewIntegreeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B456942724A7CBDD00F72C26 /* TableViewIntegreeController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B456940124A7A27000F72C26 /* Les Calanques.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Les Calanques.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B456940424A7A27000F72C26 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B456940624A7A27000F72C26 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		B456940824A7A27000F72C26 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		B456940A24A7A27000F72C26 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		B456940D24A7A27000F72C26 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B456940F24A7A27600F72C26 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B456941224A7A27600F72C26 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B456941424A7A27600F72C26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B456941F24A7A79300F72C26 /* Calanques.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calanques.swift; sourceTree = "<group>"; };
+		B456942124A7AA2500F72C26 /* CallanqueCollection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallanqueCollection.swift; sourceTree = "<group>"; };
+		B456942324A7CB7000F72C26 /* ControllerAvecTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControllerAvecTableView.swift; sourceTree = "<group>"; };
+		B456942524A7CB9C00F72C26 /* ControllerAvecCarte.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControllerAvecCarte.swift; sourceTree = "<group>"; };
+		B456942724A7CBDD00F72C26 /* TableViewIntegreeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewIntegreeController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +80,8 @@
 		B456941A24A7A63300F72C26 /* Modele */ = {
 			isa = PBXGroup;
 			children = (
+				B456941F24A7A79300F72C26 /* Calanques.swift */,
+				B456942124A7AA2500F72C26 /* CallanqueCollection.swift */,
 			);
 			path = Modele;
 			sourceTree = "<group>";
@@ -88,8 +96,9 @@
 		B456941C24A7A67900F72C26 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				B456940824A7A27000F72C26 /* FirstViewController.swift */,
-				B456940A24A7A27000F72C26 /* SecondViewController.swift */,
+				B456942324A7CB7000F72C26 /* ControllerAvecTableView.swift */,
+				B456942524A7CB9C00F72C26 /* ControllerAvecCarte.swift */,
+				B456942724A7CBDD00F72C26 /* TableViewIntegreeController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -165,9 +174,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B456940B24A7A27000F72C26 /* SecondViewController.swift in Sources */,
-				B456940924A7A27000F72C26 /* FirstViewController.swift in Sources */,
+				B456942024A7A79300F72C26 /* Calanques.swift in Sources */,
+				B456942424A7CB7000F72C26 /* ControllerAvecTableView.swift in Sources */,
+				B456942824A7CBDD00F72C26 /* TableViewIntegreeController.swift in Sources */,
 				B456940524A7A27000F72C26 /* AppDelegate.swift in Sources */,
+				B456942224A7AA2500F72C26 /* CallanqueCollection.swift in Sources */,
+				B456942624A7CB9C00F72C26 /* ControllerAvecCarte.swift in Sources */,
 				B456940724A7A27000F72C26 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
