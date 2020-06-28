@@ -20,6 +20,7 @@
 		B456942A24A7D32100F72C26 /* CalanqueCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B456942924A7D32100F72C26 /* CalanqueCell.swift */; };
 		B456942C24A7DC8700F72C26 /* ImageRonde.swift in Sources */ = {isa = PBXBuildFile; fileRef = B456942B24A7DC8700F72C26 /* ImageRonde.swift */; };
 		B456942E24A8DA9B00F72C26 /* CallanqueCellAlternative.swift in Sources */ = {isa = PBXBuildFile; fileRef = B456942D24A8DA9B00F72C26 /* CallanqueCellAlternative.swift */; };
+		B456943024A8E87D00F72C26 /* DetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B456942F24A8E87D00F72C26 /* DetailController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		B456942924A7D32100F72C26 /* CalanqueCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalanqueCell.swift; sourceTree = "<group>"; };
 		B456942B24A7DC8700F72C26 /* ImageRonde.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageRonde.swift; sourceTree = "<group>"; };
 		B456942D24A8DA9B00F72C26 /* CallanqueCellAlternative.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallanqueCellAlternative.swift; sourceTree = "<group>"; };
+		B456942F24A8E87D00F72C26 /* DetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +110,7 @@
 				B456942324A7CB7000F72C26 /* ControllerAvecTableView.swift */,
 				B456942524A7CB9C00F72C26 /* ControllerAvecCarte.swift */,
 				B456942724A7CBDD00F72C26 /* TableViewIntegreeController.swift */,
+				B456942F24A8E87D00F72C26 /* DetailController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -185,6 +188,7 @@
 			files = (
 				B456942E24A8DA9B00F72C26 /* CallanqueCellAlternative.swift in Sources */,
 				B456942024A7A79300F72C26 /* Calanques.swift in Sources */,
+				B456943024A8E87D00F72C26 /* DetailController.swift in Sources */,
 				B456942424A7CB7000F72C26 /* ControllerAvecTableView.swift in Sources */,
 				B456942824A7CBDD00F72C26 /* TableViewIntegreeController.swift in Sources */,
 				B456940524A7A27000F72C26 /* AppDelegate.swift in Sources */,
