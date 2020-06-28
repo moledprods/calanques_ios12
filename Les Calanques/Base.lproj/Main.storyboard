@@ -143,7 +143,13 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="PQr-Ze-W5v"/>
                     </view>
-                    <navigationItem key="navigationItem" id="k9B-m0-a1p"/>
+                    <navigationItem key="navigationItem" id="k9B-m0-a1p">
+                        <barButtonItem key="rightBarButtonItem" title="Reload" id="ma8-ai-xkL">
+                            <connections>
+                                <action selector="reloadButton:" destination="9pv-A4-QxB" id="NvS-5Y-BnX"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
                         <outlet property="tableView" destination="WY1-Zx-0xE" id="QAL-39-Rlu"/>
                         <segue destination="2nY-qN-LQE" kind="show" identifier="Detail" id="V7c-VG-7Ge"/>
@@ -242,14 +248,20 @@
                             <outlet property="delegate" destination="Uva-Ob-AUH" id="y3C-cg-e7X"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" id="Rpg-D7-OKL"/>
+                    <navigationItem key="navigationItem" id="Rpg-D7-OKL">
+                        <barButtonItem key="rightBarButtonItem" title="Reload" id="51y-dO-n7m">
+                            <connections>
+                                <action selector="reloadAction:" destination="Uva-Ob-AUH" id="uQW-SF-mXB"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
                         <segue destination="2nY-qN-LQE" kind="show" identifier="Detail" id="q2i-TO-r81"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vDd-EW-ZdL" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1032" y="82"/>
+            <point key="canvasLocation" x="1738" y="13"/>
         </scene>
         <!--Detail Controller-->
         <scene sceneID="SDy-Gc-8iB">
@@ -294,7 +306,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4vB-Oa-bop" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2775.36231884058" y="13.392857142857142"/>
+            <point key="canvasLocation" x="2541" y="13"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="yl2-sM-qoP">
@@ -313,7 +325,7 @@
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HuB-VB-40B" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="0.0" y="0.0"/>
+            <point key="canvasLocation" x="0.0" y="13"/>
         </scene>
         <!--Table View 1-->
         <scene sceneID="Vag-Cb-dk5">
@@ -374,7 +386,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="q2i-TO-r81"/>
+        <segue reference="V7c-VG-7Ge"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="callelongue" width="1600" height="1066"/>
