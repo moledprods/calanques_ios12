@@ -21,6 +21,8 @@
 		B456942C24A7DC8700F72C26 /* ImageRonde.swift in Sources */ = {isa = PBXBuildFile; fileRef = B456942B24A7DC8700F72C26 /* ImageRonde.swift */; };
 		B456942E24A8DA9B00F72C26 /* CallanqueCellAlternative.swift in Sources */ = {isa = PBXBuildFile; fileRef = B456942D24A8DA9B00F72C26 /* CallanqueCellAlternative.swift */; };
 		B456943024A8E87D00F72C26 /* DetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B456942F24A8E87D00F72C26 /* DetailController.swift */; };
+		B456943224A8FE8100F72C26 /* Bouton Arrondi.swift in Sources */ = {isa = PBXBuildFile; fileRef = B456943124A8FE8100F72C26 /* Bouton Arrondi.swift */; };
+		B4F6BC0824AA525B005621BB /* monAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F6BC0724AA525B005621BB /* monAnnotation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +42,8 @@
 		B456942B24A7DC8700F72C26 /* ImageRonde.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageRonde.swift; sourceTree = "<group>"; };
 		B456942D24A8DA9B00F72C26 /* CallanqueCellAlternative.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallanqueCellAlternative.swift; sourceTree = "<group>"; };
 		B456942F24A8E87D00F72C26 /* DetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailController.swift; sourceTree = "<group>"; };
+		B456943124A8FE8100F72C26 /* Bouton Arrondi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bouton Arrondi.swift"; sourceTree = "<group>"; };
+		B4F6BC0724AA525B005621BB /* monAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = monAnnotation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +94,7 @@
 			children = (
 				B456941F24A7A79300F72C26 /* Calanques.swift */,
 				B456942124A7AA2500F72C26 /* CallanqueCollection.swift */,
+				B4F6BC0724AA525B005621BB /* monAnnotation.swift */,
 			);
 			path = Modele;
 			sourceTree = "<group>";
@@ -100,6 +105,7 @@
 				B456942924A7D32100F72C26 /* CalanqueCell.swift */,
 				B456942B24A7DC8700F72C26 /* ImageRonde.swift */,
 				B456942D24A8DA9B00F72C26 /* CallanqueCellAlternative.swift */,
+				B456943124A8FE8100F72C26 /* Bouton Arrondi.swift */,
 			);
 			path = Vue;
 			sourceTree = "<group>";
@@ -195,7 +201,9 @@
 				B456942224A7AA2500F72C26 /* CallanqueCollection.swift in Sources */,
 				B456942624A7CB9C00F72C26 /* ControllerAvecCarte.swift in Sources */,
 				B456942C24A7DC8700F72C26 /* ImageRonde.swift in Sources */,
+				B456943224A8FE8100F72C26 /* Bouton Arrondi.swift in Sources */,
 				B456940724A7A27000F72C26 /* SceneDelegate.swift in Sources */,
+				B4F6BC0824AA525B005621BB /* monAnnotation.swift in Sources */,
 				B456942A24A7D32100F72C26 /* CalanqueCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
